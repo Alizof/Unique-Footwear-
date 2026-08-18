@@ -1,0 +1,7 @@
+{
+  "name": "Unique Style Footwear",
+  "description": "Premium, responsive e-commerce web application and management platform for Unique Style Footwear (Kokdoro Chowk, Pithoria, Kanke) featuring dynamic catalogue, WhatsApp ordering, cart & checkout, and complete protected admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,1524 @@
+{
+  "admin": {
+    "username": "admin",
+    "passwordHash": "17402f79d4859d062b7b1a6a451d768a5d77081de30068c9b6360b29680d4199644203bf50a19c7c866bf1696759b1fa9bfc73b711b18cdc8303eb4b50ec19ed",
+    "passwordSalt": "922c54950f00df9bdba403b6cfb077cf"
+  },
+  "settings": {
+    "brandName": "UNIQUE STYLE FOOTWEAR",
+    "ownerName": "Md. MARUF",
+    "tagline": "WELCOME TO UNIQUE STYLE FOOTWEAR - Premium Quality Footwear for Everyone",
+    "address": "Kokdoro Chowk, Pithoria, Kanke",
+    "whatsappNumber": "9709057763",
+    "phoneNumber": "9709057763",
+    "email": "uniquestylefootwear@gmail.com",
+    "logoUrl": "",
+    "aboutUs": "Unique Style Footwear is your premier footwear destination located at Kokdoro Chowk, Pithoria, Kanke, proudly owned and operated by Md. MARUF. We bring you the latest fashion-forward shoes, comfortable sandals, traditional slippers, sports footwear, and formal shoes from leading brands at the most honest and affordable prices. Every pair is curated for durability, unmatched comfort, and trendsetting style.",
+    "businessHours": "Monday - Sunday: 9:00 AM - 9:00 PM",
+    "freeDeliveryThreshold": 999,
+    "deliveryCharge": 60,
+    "announcementText": "🔥 Special Offer: Free Delivery across Kanke & Ranchi on orders above ₹999! Order directly on WhatsApp: 9709057763.",
+    "showAnnouncement": true,
+    "socialLinks": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com",
+      "googleMaps": "https://maps.google.com/?q=Kokdoro+Chowk+Pithoria+Kanke"
+    },
+    "policies": {
+      "shippingPolicy": "We provide prompt delivery across Kokdoro Chowk, Pithoria, Kanke, Ranchi, and all surrounding areas within 24-48 hours. Orders placed via WhatsApp or website are verified instantly.",
+      "returnPolicy": "Easy 7-day size exchange and return policy on unworn footwear with original packaging and tags.",
+      "privacyPolicy": "Your personal and order information is handled strictly for processing your footwear orders and customer support. We respect your complete privacy.",
+      "termsConditions": "All prices are in Indian Rupees (INR). Cash on Delivery and direct WhatsApp UPI payments are accepted upon delivery verification."
+    }
+  },
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Men's Shoes",
+      "slug": "mens-shoes",
+      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+      "description": "Casual, formal, sneakers, and lifestyle footwear for men",
+      "order": 1,
+      "isActive": true,
+      "gender": "Men"
+    },
+    {
+      "id": "cat-2",
+      "name": "Sports Shoes",
+      "slug": "sports-shoes",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80",
+      "description": "Running, training, gym, and athletic footwear with maximum grip",
+      "order": 2,
+      "isActive": true,
+      "gender": "All"
+    },
+    {
+      "id": "cat-3",
+      "name": "Men's Sandals",
+      "slug": "mens-sandals",
+      "image": "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?auto=format&fit=crop&w=600&q=80",
+      "description": "Comfortable daily wear, floaters, and ethnic sandals",
+      "order": 3,
+      "isActive": true,
+      "gender": "Men"
+    },
+    {
+      "id": "cat-4",
+      "name": "Men's Slippers & Slides",
+      "slug": "mens-slippers",
+      "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=600&q=80",
+      "description": "Ultra-lightweight slippers, home slides, and flip flops",
+      "order": 4,
+      "isActive": true,
+      "gender": "Men"
+    },
+    {
+      "id": "cat-5",
+      "name": "Women's Shoes",
+      "slug": "womens-shoes",
+      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80",
+      "description": "Fashion sneakers, casual walking shoes, and party wear",
+      "order": 5,
+      "isActive": true,
+      "gender": "Women"
+    },
+    {
+      "id": "cat-6",
+      "name": "Women's Sandals & Heels",
+      "slug": "womens-sandals",
+      "image": "https://images.unsplash.com/photo-1562273138-f46be4ebdf33?auto=format&fit=crop&w=600&q=80",
+      "description": "Elegant flats, wedges, block heels, and festive sandals",
+      "order": 6,
+      "isActive": true,
+      "gender": "Women"
+    },
+    {
+      "id": "cat-7",
+      "name": "Women's Slippers",
+      "slug": "womens-slippers",
+      "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80",
+      "description": "Soft cushioned everyday home and outdoor slippers",
+      "order": 7,
+      "isActive": true,
+      "gender": "Women"
+    },
+    {
+      "id": "cat-8",
+      "name": "Formal Shoes",
+      "slug": "formal-shoes",
+      "image": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=600&q=80",
+      "description": "Classic leather lace-ups, derbys, oxfords, and slip-on loafers",
+      "order": 8,
+      "isActive": true,
+      "gender": "Men"
+    },
+    {
+      "id": "cat-9",
+      "name": "Kids Footwear",
+      "slug": "kids-footwear",
+      "image": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&w=600&q=80",
+      "description": "Durable, lightweight and playful shoes for boys and girls",
+      "order": 9,
+      "isActive": true,
+      "gender": "Kids"
+    },
+    {
+      "id": "cat-10",
+      "name": "School Shoes",
+      "slug": "school-shoes",
+      "image": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=600&q=80",
+      "description": "Sturdy black and white uniform school shoes and canvas",
+      "order": 10,
+      "isActive": true,
+      "gender": "Kids"
+    },
+    {
+      "id": "cat-11",
+      "name": "Boots",
+      "slug": "boots",
+      "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80",
+      "description": "Rugged outdoor boots, high-top ankle boots, and trekking shoes",
+      "order": 11,
+      "isActive": true,
+      "gender": "All"
+    },
+    {
+      "id": "cat-12",
+      "name": "Flip Flops",
+      "slug": "flip-flops",
+      "image": "https://images.unsplash.com/photo-1509695507497-903c140c43b0?auto=format&fit=crop&w=600&q=80",
+      "description": "Waterproof beach and everyday flip flops",
+      "order": 12,
+      "isActive": true,
+      "gender": "All"
+    }
+  ],
+  "brands": [
+    {
+      "id": "brand-1",
+      "name": "Red Tape",
+      "slug": "red-tape",
+      "logo": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=200&q=80",
+      "description": "Premium casual sneakers and formal leather footwear",
+      "isActive": true
+    },
+    {
+      "id": "brand-2",
+      "name": "Campus",
+      "slug": "campus",
+      "logo": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=200&q=80",
+      "description": "High performance sports, running and athleisure footwear",
+      "isActive": true
+    },
+    {
+      "id": "brand-3",
+      "name": "Sparx",
+      "slug": "sparx",
+      "logo": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=200&q=80",
+      "description": "Youthful sporty sandals, floaters, and running sneakers",
+      "isActive": true
+    },
+    {
+      "id": "brand-4",
+      "name": "Asian",
+      "slug": "asian",
+      "logo": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=200&q=80",
+      "description": "Affordable, stylish lightweight sports and casual shoes",
+      "isActive": true
+    },
+    {
+      "id": "brand-5",
+      "name": "Woodland",
+      "slug": "woodland",
+      "logo": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=200&q=80",
+      "description": "Tough all-terrain boots, leather outdoor adventure footwear",
+      "isActive": true
+    },
+    {
+      "id": "brand-6",
+      "name": "Bata",
+      "slug": "bata",
+      "logo": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=200&q=80",
+      "description": "Classic formal, comfort school and family footwear collection",
+      "isActive": true
+    },
+    {
+      "id": "brand-7",
+      "name": "Relaxo",
+      "slug": "relaxo",
+      "logo": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=200&q=80",
+      "description": "Iconic durable slippers, flite sandals, and daily comfort wear",
+      "isActive": true
+    },
+    {
+      "id": "brand-8",
+      "name": "Unique Style Signature",
+      "slug": "unique-style-signature",
+      "logo": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=200&q=80",
+      "description": "Exclusive handcrafted in-house footwear collection for custom fits",
+      "isActive": true
+    }
+  ],
+  "banners": [
+    {
+      "id": "banner-1",
+      "title": "WELCOME TO UNIQUE STYLE FOOTWEAR",
+      "subtitle": "Discover the latest footwear for every occasion with supreme comfort and durable quality.",
+      "badge": "NEW SEASON 2026",
+      "imageUrl": "https://images.unsplash.com/photo-1556906781-9a412961c28c?auto=format&fit=crop&w=1600&q=85",
+      "buttonText": "Shop Now",
+      "buttonLink": "/shop",
+      "secondaryButtonText": "Explore Collection",
+      "secondaryButtonLink": "/categories",
+      "isActive": true,
+      "order": 1
+    },
+    {
+      "id": "banner-2",
+      "title": "Athletic & Sports Edition",
+      "subtitle": "Engineered for energy return, lightweight cushion & superior outdoor traction.",
+      "badge": "UP TO 40% OFF",
+      "imageUrl": "https://images.unsplash.com/photo-1579338559194-a162d19bf842?auto=format&fit=crop&w=1600&q=85",
+      "buttonText": "Explore Sports",
+      "buttonLink": "/shop?category=sports-shoes",
+      "secondaryButtonText": "Order on WhatsApp",
+      "secondaryButtonLink": "#whatsapp-cta",
+      "isActive": true,
+      "order": 2
+    },
+    {
+      "id": "banner-3",
+      "title": "Handcrafted Formal Elegance",
+      "subtitle": "Pure leather finishes, modern silhouettes, and comfortable cushioned insoles for work & celebrations.",
+      "badge": "BEST SELLERS",
+      "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=1600&q=85",
+      "buttonText": "View Formals",
+      "buttonLink": "/shop?category=formal-shoes",
+      "isActive": true,
+      "order": 3
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Red Tape Men Retro Dynamic Running Shoes",
+      "brand": "Red Tape",
+      "model": "RT-DYNA-902",
+      "category": "sports-shoes",
+      "subcategory": "Running Shoes",
+      "gender": "Men",
+      "description": "High-cushion athletic running shoes featuring breathable knit upper, EVA shock-absorbing mid-sole, and textured anti-slip rubber outsole. Perfect for daily jogging, gym workouts, and smart casual streetwear.",
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 3899,
+      "salePrice": 1699,
+      "discountPercentage": 56,
+      "sku": "USF-RT-902",
+      "availableSizes": [
+        "UK 6",
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10"
+      ],
+      "availableColors": [
+        "Red/White",
+        "All Black",
+        "Navy Blue"
+      ],
+      "stockQuantity": 24,
+      "status": "draft",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "rating": 4.8,
+      "reviewCount": 42,
+      "specifications": {
+        "Upper Material": "Engineered Mesh Fabric",
+        "Sole Material": "Lightweight EVA & TPR",
+        "Closure": "Lace-Up",
+        "Ankle Height": "Low Top",
+        "Toe Shape": "Round Toe",
+        "Warranty": "3 Months Manufacturer Warranty"
+      },
+      "tags": [
+        "running",
+        "sports",
+        "red tape",
+        "gym",
+        "cushioned"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T07:33:10.730Z"
+    },
+    {
+      "id": "prod-2",
+      "name": "Campus Oxyfit Men Breathable Walking Sneakers",
+      "brand": "Campus",
+      "model": "CAMP-OXY-410",
+      "category": "mens-shoes",
+      "subcategory": "Casual Sneakers",
+      "gender": "Men",
+      "description": "Modern lifestyle sneakers crafted with high-density memory foam footbed and airy mesh for all-day freshness. Ideal for office casuals, college, and weekend travel.",
+      "images": [
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 1999,
+      "salePrice": 1199,
+      "discountPercentage": 40,
+      "sku": "USF-CAMP-410",
+      "availableSizes": [
+        "UK 6",
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10",
+        "UK 11"
+      ],
+      "availableColors": [
+        "Triple White",
+        "Slate Grey",
+        "Olive Green"
+      ],
+      "stockQuantity": 18,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "rating": 4.7,
+      "reviewCount": 35,
+      "specifications": {
+        "Upper Material": "Breathable Flyknit",
+        "Insole": "Memory Tech Foam",
+        "Sole Material": "Phylon Rubber",
+        "Closure": "Lace-Up",
+        "Occasion": "Casual & Walking"
+      },
+      "tags": [
+        "sneakers",
+        "campus",
+        "white shoes",
+        "walking"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-3",
+      "name": "Woodland Rugged High-Ankle Leather Adventure Boots",
+      "brand": "Woodland",
+      "model": "WOOD-ANKLE-X8",
+      "category": "boots",
+      "subcategory": "Trekking Boots",
+      "gender": "Men",
+      "description": "Heavy-duty nubuck leather outdoor boots built for extreme durability, rocky trails, and monsoon terrain. Features deep lugged rubber tread and padded collar support.",
+      "images": [
+        "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 4995,
+      "salePrice": 3299,
+      "discountPercentage": 34,
+      "sku": "USF-WOOD-X8",
+      "availableSizes": [
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10"
+      ],
+      "availableColors": [
+        "Camel Brown",
+        "Deep Khaki",
+        "Black"
+      ],
+      "stockQuantity": 12,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "rating": 4.9,
+      "reviewCount": 28,
+      "specifications": {
+        "Upper Material": "Genuine Nubuck Leather",
+        "Sole Material": "Deep-Groove Thermoplastic Rubber",
+        "Closure": "Heavy Duty Metal Eyelet Lace-Up",
+        "Water Resistance": "Water Resistant Finish",
+        "Occasion": "Outdoor, Trekking & Riding"
+      },
+      "tags": [
+        "boots",
+        "woodland",
+        "leather",
+        "trekking",
+        "rugged"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-4",
+      "name": "Classic Hand-Polished Oxford Formal Shoes",
+      "brand": "Unique Style Signature",
+      "model": "USF-OXFORD-PRIME",
+      "category": "formal-shoes",
+      "subcategory": "Leather Formals",
+      "gender": "Men",
+      "description": "Signature formal dress shoes with handcrafted burnished finish, cushioned arch-support insole, and sleek dress sole. Essential for business suits, formal meetings, and weddings.",
+      "images": [
+        "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 2799,
+      "salePrice": 1499,
+      "discountPercentage": 46,
+      "sku": "USF-FORM-001",
+      "availableSizes": [
+        "UK 6",
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10"
+      ],
+      "availableColors": [
+        "Burnished Tan",
+        "Midnight Black",
+        "Rich Cherry"
+      ],
+      "stockQuantity": 15,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "rating": 4.9,
+      "reviewCount": 51,
+      "specifications": {
+        "Upper Material": "Synthetic Patent Finish Leather",
+        "Lining Material": "Soft Breathable PU",
+        "Sole Material": "Anti-Skid Air-Mix Sole",
+        "Closure": "Closed Lace-Up (Oxford)",
+        "Occasion": "Formal & Festive"
+      },
+      "tags": [
+        "formal",
+        "oxford",
+        "wedding",
+        "office",
+        "tan"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-5",
+      "name": "Sparx High-Grip Active Outdoor Floater Sandals",
+      "brand": "Sparx",
+      "model": "SPX-FLT-618",
+      "category": "mens-sandals",
+      "subcategory": "Floaters",
+      "gender": "Men",
+      "description": "Rugged all-weather sports sandals with quick-adjust velcro straps, shock-absorbing contoured footbed, and water-friendly quick-drying material.",
+      "images": [
+        "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 1199,
+      "salePrice": 799,
+      "discountPercentage": 33,
+      "sku": "USF-SPX-618",
+      "availableSizes": [
+        "UK 6",
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10"
+      ],
+      "availableColors": [
+        "Black/Red",
+        "Grey/Neon Orange",
+        "Navy/Sky"
+      ],
+      "stockQuantity": 30,
+      "status": "active",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "rating": 4.6,
+      "reviewCount": 39,
+      "specifications": {
+        "Strap Material": "Heavy Duty Synthetic Webbing",
+        "Sole Material": "Dual-Tone Durable Rubber",
+        "Closure": "Hook-and-Loop (Velcro)",
+        "Waterproof": "Yes, Quick Drying",
+        "Occasion": "Daily Casual & Monsoon"
+      },
+      "tags": [
+        "sandals",
+        "sparx",
+        "floaters",
+        "daily wear",
+        "monsoon"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-6",
+      "name": "Women's Pastel Cloud Foam Walking Sneakers",
+      "brand": "Asian",
+      "model": "ASN-W-CLOUD",
+      "category": "womens-shoes",
+      "subcategory": "Sports & Walking",
+      "gender": "Women",
+      "description": "Feather-light women walking shoes designed with aesthetic pastel accents, ultra-soft footbed padding, and slip-on sock fit collar.",
+      "images": [
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 1799,
+      "salePrice": 949,
+      "discountPercentage": 47,
+      "sku": "USF-ASN-W01",
+      "availableSizes": [
+        "UK 4",
+        "UK 5",
+        "UK 6",
+        "UK 7",
+        "UK 8"
+      ],
+      "availableColors": [
+        "Blush Pink",
+        "Lilac Frost",
+        "Cloud White"
+      ],
+      "stockQuantity": 16,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "rating": 4.8,
+      "reviewCount": 27,
+      "specifications": {
+        "Upper Material": "Flexible 3D Air Mesh",
+        "Sole Material": "Ultralight Cushion EVA",
+        "Closure": "Slip-On with Elastic Lace",
+        "Heel Height": "1.2 inch Comfort Cushion",
+        "Occasion": "Walking, College & Gym"
+      },
+      "tags": [
+        "women",
+        "sneakers",
+        "pink",
+        "lightweight",
+        "walking"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-7",
+      "name": "Women's Chic Embellished Party Block Heels",
+      "brand": "Unique Style Signature",
+      "model": "USF-HEEL-GLAM",
+      "category": "womens-sandals",
+      "subcategory": "Block Heels",
+      "gender": "Women",
+      "description": "Chic 2-inch block heel sandals with cushioned footbed and shimmering metallic ankle straps. Perfectly balanced for prolonged party comfort without foot fatigue.",
+      "images": [
+        "https://images.unsplash.com/photo-1562273138-f46be4ebdf33?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 2299,
+      "salePrice": 1299,
+      "discountPercentage": 43,
+      "sku": "USF-W-HEEL-01",
+      "availableSizes": [
+        "UK 4",
+        "UK 5",
+        "UK 6",
+        "UK 7",
+        "UK 8"
+      ],
+      "availableColors": [
+        "Rose Gold",
+        "Shimmering Silver",
+        "Classic Black"
+      ],
+      "stockQuantity": 14,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "rating": 4.7,
+      "reviewCount": 19,
+      "specifications": {
+        "Upper Material": "Synthetic Metallic Finish Leather",
+        "Heel Type": "2.2 inch Stable Block Heel",
+        "Sole Material": "Anti-Slipping Rubber Base",
+        "Closure": "Adjustable Buckle",
+        "Occasion": "Wedding, Festive & Evening Party"
+      },
+      "tags": [
+        "women",
+        "heels",
+        "sandals",
+        "party",
+        "rose gold"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-8",
+      "name": "Relaxo Flite Extra Soft Ortho Comfort Slippers",
+      "brand": "Relaxo",
+      "model": "FLT-ORTHO-10",
+      "category": "mens-slippers",
+      "subcategory": "Ortho Slippers",
+      "gender": "Men",
+      "description": "Ergonomic doctor-recommended extra soft slippers with acupressure texture and arch support for relieving heel pain and everyday home wear.",
+      "images": [
+        "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1509695507497-903c140c43b0?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 699,
+      "salePrice": 449,
+      "discountPercentage": 35,
+      "sku": "USF-FLT-ORTHO",
+      "availableSizes": [
+        "UK 6",
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10"
+      ],
+      "availableColors": [
+        "Midnight Blue",
+        "Chestnut Brown",
+        "Black"
+      ],
+      "stockQuantity": 40,
+      "status": "active",
+      "isFeatured": false,
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "rating": 4.8,
+      "reviewCount": 64,
+      "specifications": {
+        "Material": "Super Soft EVA Cushion",
+        "Feature": "Ortho Arch Support & Anti-Slip Base",
+        "Sole": "Flexible Grip Rubber",
+        "Closure": "Slip On",
+        "Occasion": "Daily Home & Doctor Recommended"
+      },
+      "tags": [
+        "slippers",
+        "ortho",
+        "relaxo",
+        "comfort",
+        "soft"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-9",
+      "name": "Kids Dynamic Flash LED Light Sports Shoes",
+      "brand": "Asian",
+      "model": "ASN-KIDS-LED",
+      "category": "kids-footwear",
+      "subcategory": "Kids Sports Shoes",
+      "gender": "Kids",
+      "description": "Vibrant kids sneakers with responsive multi-color LED motion lights in the heel, easy velcro strap fastening, and impact-cushioning rubber base.",
+      "images": [
+        "https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 1499,
+      "salePrice": 799,
+      "discountPercentage": 46,
+      "sku": "USF-KIDS-LED-01",
+      "availableSizes": [
+        "UK 10 Kids",
+        "UK 11 Kids",
+        "UK 12 Kids",
+        "UK 13 Kids",
+        "UK 1",
+        "UK 2",
+        "UK 3"
+      ],
+      "availableColors": [
+        "Electric Blue",
+        "Hot Pink",
+        "Flame Black"
+      ],
+      "stockQuantity": 22,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "rating": 4.9,
+      "reviewCount": 31,
+      "specifications": {
+        "Upper": "Lightweight Mesh & Synthetic Leather",
+        "Sole": "Shock Absorbing LED Light Sole",
+        "Closure": "Easy Pull Velcro Strap",
+        "Weight": "Featherlight 180g",
+        "Age Group": "3 - 10 Years"
+      },
+      "tags": [
+        "kids",
+        "led shoes",
+        "light shoes",
+        "boys",
+        "girls"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-10",
+      "name": "Bata Tough Sole All-Weather School Uniform Shoes",
+      "brand": "Bata",
+      "model": "BATA-SCH-PRO",
+      "category": "school-shoes",
+      "subcategory": "Uniform Shoes",
+      "gender": "Kids",
+      "description": "Heavy duty, scuff-resistant black school shoes with reinforced toe bumper, breathable anti-bacterial lining, and durable slip-proof PVC outsole.",
+      "images": [
+        "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 899,
+      "salePrice": 599,
+      "discountPercentage": 33,
+      "sku": "USF-SCH-BATA",
+      "availableSizes": [
+        "UK 11 Kids",
+        "UK 12 Kids",
+        "UK 13 Kids",
+        "UK 1",
+        "UK 2",
+        "UK 3",
+        "UK 4",
+        "UK 5",
+        "UK 6"
+      ],
+      "availableColors": [
+        "Polished Black",
+        "Standard White Canvas"
+      ],
+      "stockQuantity": 35,
+      "status": "active",
+      "isFeatured": false,
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "rating": 4.8,
+      "reviewCount": 48,
+      "specifications": {
+        "Upper Material": "High Grade Scuff-Resistant Synthetic Leather",
+        "Sole Material": "Direct-Injected Solid PVC Sole",
+        "Closure": "Velcro Strap / Lace-up",
+        "Ideal For": "School Uniform & Daily Student Wear",
+        "Care": "Easy to clean with damp cloth and shoe polish"
+      },
+      "tags": [
+        "school shoes",
+        "bata",
+        "black shoes",
+        "uniform",
+        "durable"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-11",
+      "name": "Women's Ergonomic Comfort Slip-On Slides",
+      "brand": "Unique Style Signature",
+      "model": "USF-W-SLIDE-COZY",
+      "category": "womens-slippers",
+      "subcategory": "Slides",
+      "gender": "Women",
+      "description": "Plush memory foam comfort slide slippers with textured non-slip sole and soft upper band. Perfect for lounging at home or quick neighborhood errands.",
+      "images": [
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 799,
+      "salePrice": 499,
+      "discountPercentage": 37,
+      "sku": "USF-W-SLD-01",
+      "availableSizes": [
+        "UK 4",
+        "UK 5",
+        "UK 6",
+        "UK 7",
+        "UK 8"
+      ],
+      "availableColors": [
+        "Dusty Rose",
+        "Mint Sage",
+        "Beige Neutral"
+      ],
+      "stockQuantity": 20,
+      "status": "active",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "rating": 4.6,
+      "reviewCount": 16,
+      "specifications": {
+        "Material": "High Resilience EVA Foam",
+        "Footbed": "Anatomical Deep Heel Cup",
+        "Waterproof": "100% Washable & Quick Dry",
+        "Occasion": "Home Loungewear & Casual"
+      },
+      "tags": [
+        "women",
+        "slides",
+        "slippers",
+        "home wear",
+        "comfy"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-12",
+      "name": "Everyday Waterproof Beach & Home Flip Flops",
+      "brand": "Relaxo",
+      "model": "RLX-BAHAMAS-9",
+      "category": "flip-flops",
+      "subcategory": "Flip Flops",
+      "gender": "Unisex",
+      "description": "Vibrant, ultra-flexible lightweight rubber flip flops with high traction grip sole and soft toe post for zero chafing.",
+      "images": [
+        "https://images.unsplash.com/photo-1509695507497-903c140c43b0?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 399,
+      "salePrice": 249,
+      "discountPercentage": 37,
+      "sku": "USF-RLX-FF9",
+      "availableSizes": [
+        "UK 6",
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10"
+      ],
+      "availableColors": [
+        "Tropical Blue",
+        "Sunset Orange",
+        "Jet Black"
+      ],
+      "stockQuantity": 50,
+      "status": "active",
+      "isFeatured": false,
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "rating": 4.7,
+      "reviewCount": 82,
+      "specifications": {
+        "Material": "100% Virgin Natural Rubber Blend",
+        "Strap": "Soft Non-Chafing Polymer Strap",
+        "Sole": "Wave Pattern Anti-Slip Tread",
+        "Usage": "Beach, Monsoon & Bathroom Wear"
+      },
+      "tags": [
+        "flip flops",
+        "slippers",
+        "relaxo",
+        "budget",
+        "waterproof"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-13",
+      "name": "Red Tape Men Classic Suede Tassel Driving Loafers",
+      "brand": "Red Tape",
+      "model": "RT-LOAF-701",
+      "category": "mens-shoes",
+      "subcategory": "Loafers",
+      "gender": "Men",
+      "description": "Crafted from fine faux suede with hand-stitched detailing, decorative tassel accent, and flexible rubber driving nubs for premium comfort.",
+      "images": [
+        "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 2999,
+      "salePrice": 1499,
+      "discountPercentage": 50,
+      "sku": "USF-RT-LF701",
+      "availableSizes": [
+        "UK 6",
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10"
+      ],
+      "availableColors": [
+        "Tan Brown",
+        "Navy Blue",
+        "Olive Suede"
+      ],
+      "stockQuantity": 16,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "rating": 4.8,
+      "reviewCount": 34,
+      "specifications": {
+        "Upper Material": "Velvety Micro-Suede",
+        "Sole Material": "Grip Driving Sole",
+        "Closure": "Slip-on",
+        "Occasion": "Semi-formal, Casual & Party"
+      },
+      "tags": [
+        "loafers",
+        "red tape",
+        "men",
+        "casual",
+        "suede"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-14",
+      "name": "Asian Men Air-Breeze Perforated Full Moulded Shoes",
+      "brand": "Asian",
+      "model": "ASN-MLD-502",
+      "category": "mens-shoes",
+      "subcategory": "Full Moulded Shoes",
+      "gender": "Men",
+      "description": "Ultra-lightweight full injection moulded casual shoes with 360-degree ventilation mesh perforations, water-resistant build, and soft cushioned insole.",
+      "images": [
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 1299,
+      "salePrice": 699,
+      "discountPercentage": 46,
+      "sku": "USF-ASN-MLD502",
+      "availableSizes": [
+        "UK 6",
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10"
+      ],
+      "availableColors": [
+        "Deep Navy",
+        "Steel Grey",
+        "All Black"
+      ],
+      "stockQuantity": 28,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "rating": 4.7,
+      "reviewCount": 21,
+      "specifications": {
+        "Upper Material": "High Grade Breathable Polymer",
+        "Sole Material": "Shock Absorbing EVA",
+        "Closure": "Slip-on",
+        "Waterproof": "100% Water Resistant",
+        "Occasion": "Daily Monsoon, Walking & Travel"
+      },
+      "tags": [
+        "full moulded shoes",
+        "asian",
+        "moulded",
+        "waterproof",
+        "men"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-15",
+      "name": "Relaxo Comfort Lightweight Slip-On Clogs & Crocks",
+      "brand": "Relaxo",
+      "model": "RLX-CLG-88",
+      "category": "flip-flops",
+      "subcategory": "Crocks",
+      "gender": "Men",
+      "description": "Ergonomic pivoting heel strap clogs with breathable port holes, anti-skid wavy base, and feather-light bounce comfort for home, beach, and garden.",
+      "images": [
+        "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1509695507497-903c140c43b0?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 899,
+      "salePrice": 549,
+      "discountPercentage": 38,
+      "sku": "USF-RLX-CLG88",
+      "availableSizes": [
+        "UK 6",
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10"
+      ],
+      "availableColors": [
+        "Navy Blue",
+        "Olive Green",
+        "Charcoal"
+      ],
+      "stockQuantity": 32,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "rating": 4.6,
+      "reviewCount": 47,
+      "specifications": {
+        "Material": "Superlite Croslite-Type Foam",
+        "Strap": "Adjustable Pivoting Heel Strap",
+        "Washable": "Yes, Easy Wash with Water",
+        "Occasion": "Daily Leisure, Rainy Season & Beach"
+      },
+      "tags": [
+        "crocks",
+        "clogs",
+        "relaxo",
+        "men",
+        "waterproof"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-16",
+      "name": "Campus Boys Turbo-Sprint Athletic Running Shoes",
+      "brand": "Campus",
+      "model": "CAMP-BOYS-705",
+      "category": "sports-shoes",
+      "subcategory": "Sports",
+      "gender": "Kids",
+      "description": "High-octane boys running shoes with shock absorbing spring-cushion heel pod, breathable dynamic mesh, and rapid-pull velcro lace strap.",
+      "images": [
+        "https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 1699,
+      "salePrice": 999,
+      "discountPercentage": 41,
+      "sku": "USF-CAMP-B705",
+      "availableSizes": [
+        "UK 11 Kids",
+        "UK 12 Kids",
+        "UK 13 Kids",
+        "UK 1",
+        "UK 2",
+        "UK 3"
+      ],
+      "availableColors": [
+        "Royal Blue/Orange",
+        "Black/Lime",
+        "Navy/Red"
+      ],
+      "stockQuantity": 20,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "rating": 4.9,
+      "reviewCount": 38,
+      "specifications": {
+        "Upper Material": "Knitted 3D Breathable Mesh",
+        "Sole Material": "Phylon Air Cushion Sole",
+        "Closure": "Velcro + Elastic Laces",
+        "Target Audience": "Boys - Kids (4-12 Years)"
+      },
+      "tags": [
+        "boys",
+        "kids",
+        "sports",
+        "campus",
+        "running"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-17",
+      "name": "Bata Toughees Girls Classic Black Mary-Jane School Shoes",
+      "brand": "Bata",
+      "model": "BATA-GIRL-SCH",
+      "category": "school-shoes",
+      "subcategory": "School Shoes",
+      "gender": "Kids",
+      "description": "Official girl student school shoes featuring scuff-resistant polished black finish, sturdy metal buckle strap, padded collar, and slip-free PVC outsole.",
+      "images": [
+        "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 899,
+      "salePrice": 599,
+      "discountPercentage": 33,
+      "sku": "USF-BATA-GSCH",
+      "availableSizes": [
+        "UK 10 Kids",
+        "UK 11 Kids",
+        "UK 12 Kids",
+        "UK 13 Kids",
+        "UK 1",
+        "UK 2",
+        "UK 3",
+        "UK 4"
+      ],
+      "availableColors": [
+        "Polished Black"
+      ],
+      "stockQuantity": 30,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "rating": 4.8,
+      "reviewCount": 54,
+      "specifications": {
+        "Upper Material": "High Gloss Scuff-Resistant Synthetic",
+        "Sole Material": "Solid Direct Injected PVC",
+        "Closure": "Buckle Strap (Mary Jane)",
+        "Target Audience": "Girls - Kids School Uniform"
+      },
+      "tags": [
+        "school shoes",
+        "bata",
+        "girls",
+        "black",
+        "uniform"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-18",
+      "name": "Unique Style Girls Floral Glitter Party Sandals",
+      "brand": "Unique Style Signature",
+      "model": "USF-GIRL-GLITZ",
+      "category": "kids-footwear",
+      "subcategory": "Sandals",
+      "gender": "Kids",
+      "description": "Adorable festive sandals embellished with sparkling 3D glitter flower accents, soft foam cushioned insole, and gentle ankle velcro fastening.",
+      "images": [
+        "https://images.unsplash.com/photo-1562273138-f46be4ebdf33?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 1199,
+      "salePrice": 699,
+      "discountPercentage": 41,
+      "sku": "USF-G-GLITZ",
+      "availableSizes": [
+        "UK 10 Kids",
+        "UK 11 Kids",
+        "UK 12 Kids",
+        "UK 13 Kids",
+        "UK 1",
+        "UK 2"
+      ],
+      "availableColors": [
+        "Rose Gold Glitter",
+        "Silver Shimmer",
+        "Pastel Pink"
+      ],
+      "stockQuantity": 18,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "rating": 4.9,
+      "reviewCount": 29,
+      "specifications": {
+        "Upper Material": "Glitter Synthetic PU with Floral Details",
+        "Sole Material": "Soft Anti-Slip TPR",
+        "Closure": "Velcro Ankle Strap",
+        "Target Audience": "Girls - Kids Party & Festive"
+      },
+      "tags": [
+        "girls",
+        "sandals",
+        "party",
+        "glitter",
+        "kids"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-19",
+      "name": "Sparx Boys All-Terrain Adventure Sports Sandals",
+      "brand": "Sparx",
+      "model": "SPX-BOY-402",
+      "category": "kids-footwear",
+      "subcategory": "Sandals",
+      "gender": "Kids",
+      "description": "Tough outdoor sport sandals with dual velcro adjustability, anti-skid grooved rubber grip, and water-friendly cushioned footbed.",
+      "images": [
+        "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 899,
+      "salePrice": 599,
+      "discountPercentage": 33,
+      "sku": "USF-SPX-B402",
+      "availableSizes": [
+        "UK 11 Kids",
+        "UK 12 Kids",
+        "UK 13 Kids",
+        "UK 1",
+        "UK 2",
+        "UK 3"
+      ],
+      "availableColors": [
+        "Black/Neon Orange",
+        "Navy/Sky Blue"
+      ],
+      "stockQuantity": 25,
+      "status": "active",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "rating": 4.7,
+      "reviewCount": 33,
+      "specifications": {
+        "Upper Material": "Durable Webbed Fabric",
+        "Sole Material": "Dual Density Rubber Sole",
+        "Closure": "Double Velcro Straps",
+        "Target Audience": "Boys - Kids Outdoor & Casual"
+      },
+      "tags": [
+        "boys",
+        "sandals",
+        "sparx",
+        "adventure",
+        "kids"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-20",
+      "name": "Campus Boys Warm Collar Winter High-Top Sneakers",
+      "brand": "Campus",
+      "model": "CAMP-B-HI",
+      "category": "kids-footwear",
+      "subcategory": "Sneakers",
+      "gender": "Kids",
+      "description": "High-top trendy fashion sneakers with padded fleece collar for snug ankle warmth, sturdy rubber toe cap, and cool casual street look.",
+      "images": [
+        "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 1799,
+      "salePrice": 999,
+      "discountPercentage": 44,
+      "sku": "USF-CAMP-BHI",
+      "availableSizes": [
+        "UK 12 Kids",
+        "UK 13 Kids",
+        "UK 1",
+        "UK 2",
+        "UK 3"
+      ],
+      "availableColors": [
+        "Camel Tan",
+        "Charcoal Grey",
+        "Midnight Black"
+      ],
+      "stockQuantity": 15,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "rating": 4.8,
+      "reviewCount": 17,
+      "specifications": {
+        "Upper Material": "Premium PU Leather & Fleece Padding",
+        "Sole Material": "Vulcanized Grip Rubber",
+        "Closure": "Side Zipper + Lace-Up",
+        "Target Audience": "Boys - Kids Winter & Casual"
+      },
+      "tags": [
+        "boys",
+        "sneakers",
+        "high top",
+        "campus",
+        "winter"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    },
+    {
+      "id": "prod-21",
+      "name": "Bata Women Office Classic Ballerinas & Comfort Low Flats",
+      "brand": "Bata",
+      "model": "BATA-W-FLAT",
+      "category": "womens-shoes",
+      "subcategory": "Loafers & Flats",
+      "gender": "Women",
+      "description": "Timeless slip-on ballet flats engineered with soft memory foam cushion bed, flexible sole, and chic minimalist bow detail.",
+      "images": [
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1562273138-f46be4ebdf33?auto=format&fit=crop&w=800&q=80"
+      ],
+      "originalPrice": 1499,
+      "salePrice": 899,
+      "discountPercentage": 40,
+      "sku": "USF-BATA-WFLAT",
+      "availableSizes": [
+        "UK 4",
+        "UK 5",
+        "UK 6",
+        "UK 7",
+        "UK 8"
+      ],
+      "availableColors": [
+        "Nude Beige",
+        "Jet Black",
+        "Burgundy Cherry"
+      ],
+      "stockQuantity": 22,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "rating": 4.8,
+      "reviewCount": 41,
+      "specifications": {
+        "Upper Material": "Soft PU Leather",
+        "Insole": "Comfort Memory Insole",
+        "Sole Material": "Flexible Rubber Sole",
+        "Closure": "Slip-on",
+        "Occasion": "Office, Daily Work & College"
+      },
+      "tags": [
+        "women",
+        "flats",
+        "bata",
+        "loafers",
+        "office"
+      ],
+      "createdAt": "2026-08-18T05:55:52.613Z",
+      "updatedAt": "2026-08-18T05:55:52.613Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1001",
+      "orderNumber": "USF-2026-1001",
+      "createdAt": "2026-08-18T01:55:52.613Z",
+      "customerName": "Rahul Kumar Singh",
+      "mobileNumber": "9835123456",
+      "whatsappNumber": "9835123456",
+      "address": "Near Kali Mandir, Main Road",
+      "locality": "Kokdoro Chowk",
+      "city": "Pithoria, Kanke",
+      "state": "Jharkhand",
+      "pincode": "834006",
+      "note": "Please call before delivery in the afternoon.",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "Red Tape Men Retro Dynamic Running Shoes",
+          "brand": "Red Tape",
+          "model": "RT-DYNA-902",
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
+          "selectedSize": "UK 8",
+          "selectedColor": "Red/White",
+          "quantity": 1,
+          "unitPrice": 1699,
+          "totalPrice": 1699
+        }
+      ],
+      "subtotal": 1699,
+      "deliveryCharge": 0,
+      "discount": 0,
+      "totalAmount": 1699,
+      "status": "Confirmed",
+      "paymentMethod": "COD",
+      "source": "whatsapp"
+    },
+    {
+      "id": "ord-1002",
+      "orderNumber": "USF-2026-1002",
+      "createdAt": "2026-08-17T11:55:52.613Z",
+      "customerName": "Pooja Kumari",
+      "mobileNumber": "7004123890",
+      "whatsappNumber": "7004123890",
+      "address": "House #42, Block B, Pithoria Market",
+      "locality": "Pithoria",
+      "city": "Kanke, Ranchi",
+      "state": "Jharkhand",
+      "pincode": "834006",
+      "note": "Size UK 5 needed for festive event.",
+      "items": [
+        {
+          "productId": "prod-7",
+          "productName": "Women's Chic Embellished Party Block Heels",
+          "brand": "Unique Style Signature",
+          "model": "USF-HEEL-GLAM",
+          "image": "https://images.unsplash.com/photo-1562273138-f46be4ebdf33?auto=format&fit=crop&w=800&q=80",
+          "selectedSize": "UK 5",
+          "selectedColor": "Rose Gold",
+          "quantity": 1,
+          "unitPrice": 1299,
+          "totalPrice": 1299
+        },
+        {
+          "productId": "prod-11",
+          "productName": "Women's Ergonomic Comfort Slip-On Slides",
+          "brand": "Unique Style Signature",
+          "model": "USF-W-SLIDE-COZY",
+          "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80",
+          "selectedSize": "UK 5",
+          "selectedColor": "Dusty Rose",
+          "quantity": 1,
+          "unitPrice": 499,
+          "totalPrice": 499
+        }
+      ],
+      "subtotal": 1798,
+      "deliveryCharge": 0,
+      "discount": 0,
+      "totalAmount": 1798,
+      "status": "Shipped",
+      "paymentMethod": "COD",
+      "source": "website"
+    },
+    {
+      "id": "ord-1003",
+      "orderNumber": "USF-2026-1003",
+      "createdAt": "2026-08-16T05:55:52.613Z",
+      "customerName": "Amit Sahu",
+      "mobileNumber": "8709321456",
+      "whatsappNumber": "8709321456",
+      "address": "Kanke Block Chowk",
+      "locality": "Kanke",
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "pincode": "834006",
+      "note": "",
+      "items": [
+        {
+          "productId": "prod-4",
+          "productName": "Classic Hand-Polished Oxford Formal Shoes",
+          "brand": "Unique Style Signature",
+          "model": "USF-OXFORD-PRIME",
+          "image": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=800&q=80",
+          "selectedSize": "UK 9",
+          "selectedColor": "Burnished Tan",
+          "quantity": 1,
+          "unitPrice": 1499,
+          "totalPrice": 1499
+        }
+      ],
+      "subtotal": 1499,
+      "deliveryCharge": 0,
+      "discount": 0,
+      "totalAmount": 1499,
+      "status": "Delivered",
+      "paymentMethod": "COD",
+      "source": "whatsapp"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "productId": "prod-1",
+      "customerName": "Vikash Mehta (Pithoria)",
+      "rating": 5,
+      "comment": "Super fast delivery in Kokdoro Chowk! The Red Tape running shoes are authentic and incredibly comfortable for morning runs. Value for money.",
+      "date": "2026-08-10",
+      "verifiedPurchase": true
+    },
+    {
+      "id": "rev-2",
+      "productId": "prod-1",
+      "customerName": "Sanjay Oraon",
+      "rating": 5,
+      "comment": "Great grip and very lightweight. Ordered directly on WhatsApp, got same-day delivery.",
+      "date": "2026-08-12",
+      "verifiedPurchase": true
+    },
+    {
+      "id": "rev-3",
+      "productId": "prod-4",
+      "customerName": "Manish Verma (Kanke)",
+      "rating": 5,
+      "comment": "The tan color oxford formal shoe finish is pure class. Perfect fit with office trousers and blazers.",
+      "date": "2026-08-08",
+      "verifiedPurchase": true
+    }
+  ]
+}
